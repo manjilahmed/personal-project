@@ -1,0 +1,164 @@
+body{
+    background-color: ;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+ 
+/* navbar design start here  */
+
+.nav-logo{
+    text-align: left;
+}
+
+.nav-heading h1{
+    text-align: left;
+}
+
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    padding: 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+.navbar{
+    margin: 0% 0% 1% 0%;
+    border-radius: 0px 0px 0px 0px;
+}
+
+/* navbar design ends here  */
+
+
+/* profile design start here  */
+
+.profile{
+    border: none;
+    border-radius: 0px;
+    margin: 0 0;
+ }
+
+.profile .top-pic{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transition: transform 1s;
+}
+
+.profile .top-pic:hover{
+    width: 170px;
+    height: 170px;
+}
+
+.profile .bottom-pic{
+    left: 100px;
+}
+
+.profile-desc p{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    color: gray;
+}
+
+/* profile design ends here  */
+
+/* about me start here  */
+
+.about-me{
+    margin: 1% 0% ;
+    border-radius: 0px;
+
+}
+
+.aboutme-image{
+    margin-top: 100px;
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+
+.aboutme-image img{
+    height: 270px;
+    width:  250px;
+}
+
+ /* about me ends here  */
+
+
+
+  /* professional experience start here  */
+
+  .professional-experience{
+    padding: 1% 1%;
+}
+
+ /* professional experience ends here  */
+
+
+ /* achivement-contact start here */
+
+ .achivement-contact{
+    margin: 1% 0% 0% 0%;
+    border-radius: 0px;
+}
+         
+.contact button{
+    width: 100px;
+}
+
+.contact-links{
+    position: relative;
+}
+
+.media-buttons{
+    position: absolute;
+    margin-top: 70px;
+    left: 30%;
+    right: 30%;
+    transform: translate(-0%,-20%);  
+}
+
+ /* achivement-contact ends here */
+
+ /* footer start here */
+ .footer{
+    margin: 0% 0%;
+    border-radius: 0px;
+ }
+
+ .footer-menu a{
+    display: inline;
+}
+        
+.footer-icon .btn {
+    display: inline;  
+    margin: 5px;  
+}
+
+.footer-icon .btn:hover{
+    background-color:gray;
+}
+
+ /* footer ends here */
+
+
+
+
